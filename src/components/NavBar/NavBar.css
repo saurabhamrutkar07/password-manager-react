@@ -1,0 +1,17 @@
+.navbar{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.navbar-logo{
+height: 30px;
+width: 100px;
+
+}
+
+@media screen and (min-width:992px) {
+    .navbar{
+        margin-bottom: 20px;
+    }
+    
+}

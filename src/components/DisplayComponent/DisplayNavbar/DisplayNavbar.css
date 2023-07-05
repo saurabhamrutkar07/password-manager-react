@@ -1,0 +1,84 @@
+.display-navbar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.part-one{
+    display: flex;
+    width: 50%;
+    margin-right: 10px;
+}
+.span-password-text{
+    font-size: 13px;
+    margin-right: 5px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.password-count{
+    border: 1px solid #ffffff;
+    height: 20px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+color: #ffffff;
+font-weight: 600;
+}
+.part-two{
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+}
+.display-navbar-serch-logo-container{
+    width: 20%;
+    text-align: center;
+    
+}
+.display-navbar-serch-logo{
+height: 18px;
+width: 18px;
+margin: auto;
+
+}
+.display-navbar-serch-input{
+    width: 80%;
+    border: none;
+    outline: none;
+    border-left: 1px solid  #64748b;
+    
+
+}
+@media screen and (min-width:768px) {
+    .display-navbar-serch-logo-container{
+        width: 10%;
+    }
+    .display-navbar-serch-input{
+        width: 100%;
+    }
+    .part-two{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .display-navbar-serch-logo-container{
+        width: 10%;
+    }
+    .display-navbar-serch-input{
+        width: 50%;
+    }
+    .part-two{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .display-navbar-serch-logo-container{
+        width: 10%;
+    }
+    .display-navbar-serch-input{
+        width: 50%;
+    }
+    .part-two{
+        width: 30%;
+    }
+}

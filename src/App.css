@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.app{
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 100%;
+  background-size: cover;
+  padding: 10px;
+}
+
+@media screen and (min-width:768px) {
+  .app{
+    padding: 25px 30px 25px 30px;
+  }
+  
+}
+
+@media screen and (min-width:992px) {
+  .app{
+    padding: 25px 45px 25px 45px;
+  }
+  
+}
+
+
+@media screen and (min-width:1200px) {
+  .app{
+    padding: 30px 50px 30px 50px;
+  }
+  
+}

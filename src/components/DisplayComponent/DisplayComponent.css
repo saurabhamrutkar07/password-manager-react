@@ -1,0 +1,13 @@
+.display-container{
+    background-color: #5763a5;
+    
+    padding: 10px;
+    height: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.no-passwords-heading{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+.input-container{
+    background-color: #5763a5;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.small-screen-logo{
+    height: 200px;
+    width:200px;
+    margin: auto;
+}
+.large-screen-logo{
+    height: 200px;
+    width:200px;
+    margin: auto;
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .input-container{
+        display: flex;
+        padding: 20px;
+    }
+    .small-screen-logo{
+        display: none;
+    }
+    .large-screen-logo{
+        display: block;
+        height: 240px;
+        width: 240px;
+
+    }
+}
